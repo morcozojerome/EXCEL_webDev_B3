@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- FontAwesome -->
+    <script src="https://kit.fontawesome.com/a1404e5c11.js" crossorigin="anonymous"></script>
+    <!-- Icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+     <!-- Compiled and minified CSS -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+     <link rel="stylesheet" href="main.css">
+    <title>Forms 2</title>
+</head>
+<body class="yellow lighten-4">
+    <div class="container">
+        <h1 class="pink-text text-lighten-1">Forms 2</h1>
+
+        <!-- Switch -->
+        <form>
+            <div class="switch">
+                <label>
+                    Disable
+                    <input type="checkbox" checked>
+                    <span class="lever"></span>
+                    Enable
+                </label>
+            </div>
+            <div class="switch">
+                <label>
+                    Disable
+                    <input type="checkbox" disabled>
+                    <span class="lever"></span>
+                    Enable
+                </label>
+            </div>
+
+            <br><br>
+            <!-- File Input -->
+            <div class="file-field input-field">
+                <div class="btn">
+                    <span>Upload File</span>
+                    <input type="file">
+                </div>
+                <div class="file-path wrapper">
+                    <input type="text" class="file-path"></input>
+                </div>
+            </div>
+
+            <!-- Range Slider -->
+            <p class="range-field">
+                <input type="range" min="0" max="10">
+            </p>
+
+            <!-- Date Picker -->
+            <input type="text" class="datepicker">
+            <!-- Time Picker -->
+            <input type="text" class="timepicker">
+            <br><br>
+            <!-- Character counter -->
+            <div class="input-field">
+                <input type="text" id="post" data-length="10">
+                <label for="post">Post</label>
+            </div>
+        </form>
+
+        
+    </div>
+    
+
+    <!-- JQuery CDN -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+    <script>
+        $(document).ready(function(){
+            // Date Picker
+            $('.datepicker').datepicker();
+            // Time Picker
+            $('.timepicker').timepicker();
+        });
+    </script>
+</body>
+</html>
