@@ -1,0 +1,63 @@
+nav {
+    background-color: #494747;
+}
+
+a.brand-logo {
+    font-family: 'Arial Narrow Bold', sans-serif;
+}
+
+.blue.darken-2 {
+    background-color: #494747 !important;
+}
+
+.loader {
+    position: absolute;
+    top: 40% ;
+    left: 47% ;
+}
+
+footer {
+    background-color: #494747 !important;
+}
+
+.main-wrapper{
+    width: 100%;
+    background: #494747;
+    padding-bottom: 10px;
+}
+.slider-holder{
+    width: 100%;
+    background: #969696;
+    padding-bottom: 10px;
+    height: 85vh;
+}
+
+.carousel { 
+    height: 85vh !important;
+}
+
+.ss1 {
+    background-image: url('../Img/Electrical.jpg');
+}
+
+.ss2 {
+    background-image: url('../Img/CSS.jpg');
+    
+}
+
+.ss3 {
+    background-image: url('../Img/Google.jpg');
+}
+
+.ss4 {
+    background-image: url('../Img/WebDesign.jpg');
+}
+footer {
+    background-color: #494747;
+}
+
+.modal {
+    border-radius: 15px;
+    background-color: #202027;
+    width: 25%;
+}
